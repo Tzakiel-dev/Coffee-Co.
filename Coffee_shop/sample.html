@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Co. | Manager: Julian Estupa</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: bisque;
+    }
+
+    /* NAVBAR */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+      background: white;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .logo-img {
+      width: 50px;
+    }
+
+    nav {
+      flex-grow: 1;
+      text-align: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #3e2723;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #6d4c41;
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .nav-right a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #3e2723;
+    }
+
+    .btn {
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1px solid #3e2723;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .btn.signin {
+      background: white;
+      color: #3e2723;
+    }
+
+    .btn.join {
+      background: #3e2723;
+      color: white;
+    }
+
+    /* BANNER */
+    .hero-banner img {
+      width: 100%;
+      height: auto;
+      max-height: 400px;
+      object-fit: cover;
+      display: block;
+    }
+
+    main {
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #3e2723;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- HEADER NAV -->
+  <header>
+    <img src="images/logo.png" alt="Coffee Co." class="logo-img">
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="events.html">Events</a>
+    </nav>
+
+    <div class="nav-right">
+      <a href="#">Find a Store</a>
+      <a href="#" class="btn signin">Sign In</a>
+      <a href="#" class="btn join">Join Now</a>
+    </div>
+  </header>
+
+  <!-- BANNER -->
+  <section class="hero-banner">
+    <img src="images/coffee-banner.png" alt="Coffee Co Banner">
+  </section>
+
+  <main>
+    <h1>Welcome to Coffee Co.</h1>
+    <p>Your neighborhood coffee spot in Roastersville, WV</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Coffee Co. | Manager: Julian Estupa</p>
+  </footer>
+
+</body>
+</html>
