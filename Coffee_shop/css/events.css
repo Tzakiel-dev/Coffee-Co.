@@ -1,0 +1,101 @@
+.events-banner {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+}
+.events-banner .banner{
+    width: 100%;
+    object-fit: cover;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.events-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+}
+.greetings-container{
+    padding:30px;
+    text-align:center;
+    font-size: 33px;
+    transition: transform 0.5s ease;
+}
+.greetings{
+    border: 1px solid #3e2723;
+    background-image: url(../images/events-greet.png);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+    color: #ddd;
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+.greetings-container:hover{
+        transform: scale(1.1);
+}
+
+.events-row {
+    display: flex;
+    justify-content: center; /* keeps them centered */
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.promo-item {
+    text-align: center;
+    max-width: 100%;
+    padding: 20px;
+    transition: transform 0.5s ease;
+}
+.promo-item:hover{
+    transform: scale(1.1);
+}
+
+.promo-item img {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    max-width: 100%px;
+    border-radius: 10px;
+    
+}
+.promo-item>h3{
+    margin:20px 0 10px;
+    color:#3e2723;
+    font-size:30px;
+}
+.promo-item>p{
+    font-size:25px;
+    color:#444;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.promo-item>button {
+    padding: 8px 15px;
+    border: 1px solid #3e2723;
+    background: white;
+    color: #3e2723;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 20px;
+}
+
+.promo-item button:hover {
+    background: #3e2723;
+    color: white;
+    transform: scale(1.2);
+}
+
+
+
